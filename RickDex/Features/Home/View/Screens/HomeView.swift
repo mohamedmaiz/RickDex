@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @ObservedObject  private var  viewModel =  HomeViewModel()
+    @StateObject  private var  viewModel =  HomeViewModel()
     var body: some View {
         NavigationStack{
             
